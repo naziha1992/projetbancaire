@@ -1,4 +1,6 @@
 <?php
+echo "ceci est un test pour naziha";
+
 $servername = "localhost";
 $username = "root";
 $password = "";
