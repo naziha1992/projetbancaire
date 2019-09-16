@@ -1,5 +1,5 @@
 <?php
-echo "ceci est un test pour naziha";
+echo "ceci est un test pour naziha et regine";
 
 $servername = "localhost";
 $username = "root";
