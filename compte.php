@@ -42,7 +42,7 @@ if(isset($_GET['idc'])) {
     }
     $conn->close();
 } else {
-    echo "Pas de client";
+    echo "erreur d'utilisation";
 }
 
 ?>

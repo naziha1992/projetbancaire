@@ -1,10 +1,17 @@
 <?php
-echo "ceci est un test pour naziha et regine";
-
+if (isset ($_SERVER['WINDIR'])){
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "projetbancaire";
+
+}else{
+	
+$servername = "172.17.0.2";
+$username = "root";
+$password = "";
+$dbname = "projetbancaire";
+}
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
